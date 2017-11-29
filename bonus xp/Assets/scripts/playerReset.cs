@@ -12,11 +12,12 @@ public class playerReset : MonoBehaviour {
 
 		if (other.tag == "Player")
 		{
-			other.transform.position = new Vector2(-20, 3);
+			other.transform.position = new Vector2(-3, 1);
+		
 			//Instantiate(player, spawn.transform.position, spawn.transform.rotation);
 			//Destroy(other.gameObject);
 		}
-		
+
 	}
 
 
